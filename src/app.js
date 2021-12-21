@@ -15,7 +15,7 @@ var projectsRouter = require('./routes/projects')
 var app = express();
 
 //connect to mongodb
-const dbURI = 'mongodb+srv://adesobodu:Olaoluwa1@cluster0.xkjvv.mongodb.net/personal-website?retryWrites=true&w=majority'
+const dbURI = 'mongodb+srv://adesobodu:3P4iONI1i7H0aMUa@cluster0.xkjvv.mongodb.net/personal-website?retryWrites=true&w=majority'
 
 mongoose.connect(dbURI)
   .then((result => {console.log('connected to db'); app.listen()} ))
